@@ -11,7 +11,7 @@ def ai(txt):
     return response.text
 
 
-st.title("Gamkers AI Assistant")
+st.title("dass AI Assistant")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []  # Use plural for clarity
